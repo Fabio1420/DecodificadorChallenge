@@ -434,7 +434,7 @@ header {
         text-shadow: 0 0 10px var(--cor-terciaria);
     }
     .logo_atualizar {
-        margin: 0 20%;
+        margin: 0 40%;
         display: flex;
         box-sizing: border-box;
         padding: 0 30px 30px;
