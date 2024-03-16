@@ -1,0 +1,612 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Permanent+Marker&display=swap');
+:root {
+    --cor-primaria: #444344;
+    --cor-secundaria: #1d1c1a;
+    --cor-terciaria: #e9e9e9e0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color:var(--cor-secundaria);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+header {
+    display: flex;
+    margin: 0;
+}
+.h1_titulo_apresentacao {
+    margin: 0 360px;
+    font-size: 2rem;
+    font-family: "Permanent Marker", cursive;
+    color: var(--cor-terciaria);
+    text-shadow: 0 0 20px var(--cor-terciaria);
+}
+.logo_atualizar {
+    box-sizing: border-box;
+    padding: 15px 30px 20px 20px;
+    width: 0.8%;
+    filter:brightness(150%);
+    opacity: 90%;
+}
+.container {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.container_clarify_code {
+    margin: 3% 0% 0% 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    gap: 0.5rem;
+}
+.textoarea_digite_seu_texto {
+    box-shadow: 0.5px 1px 15px 2px var(--cor-terciaria);
+    border-radius: 15px;
+    background-color: var(--cor-primaria);
+    opacity: 99.99%;
+    width: 100%;
+    height: 70%;
+    border: none;
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    font-family: "Permanent Marker", cursive;
+}
+.rodape__alert {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: "Permanent Marker", cursive;
+}
+.apenas_letras_minusculas {
+    margin: 0 0 30px;
+    font-size: 0.85rem;
+    text-align: center;
+    color: var(--cor-terciaria);
+    text-shadow: 0 0 10px var(--cor-terciaria);
+
+}
+.container_buttons_conjunto_rodape {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.button_criptografar {
+    box-shadow: 5px 2px 10px var(--cor-terciaria);
+    text-shadow: 2px 2px 8px var(--cor-primaria);
+    width: 100%;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 10px;
+    font-size: 115%;
+    font-family: "Permanent Marker", cursive;
+    border-color: var(--cor-terciaria);
+}
+.button_descriptografar {
+    box-shadow: 5px 2px 10px var(--cor-terciaria);
+    text-shadow: 5px 2px 20px;
+    width: 100%;
+    color: var(--cor-terciaria);
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    font-size: 115%;
+    font-family: "Permanent Marker", cursive;
+    border-color: var(--cor-terciaria);
+}
+.container_return {
+    width: 45%;
+    height: 100%;
+    margin: 0.5% 4% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    text-shadow: 0 0 20px var(--cor-terciaria);
+    border-radius: 20px;
+    box-shadow: 0.5px 4px 15px var(--cor-terciaria);
+}
+.container_return_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    gap: 1.25rem;
+}
+.img_enigma {
+    border-radius: 8px;
+    width: 80%;
+    filter:brightness(80%);
+    opacity: 40%;
+}
+.container_return_box_msg {
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.15rem;
+}
+.digite_o_texto_para_cript_ou_descrip {
+    font-family: "Permanent Marker", cursive;
+    font-size: .85rem;
+}
+.container_return_button_copiar {
+    text-shadow: 5px 2px 20px;
+    width: 85%;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 10px;
+    font-size: 115%;
+    font-family: "Permanent Marker", cursive;
+    border-color: var(--cor-terciaria);
+}
+.footer {
+    display: flex;
+    margin: 60px;
+    padding: 10px 0 -10px 0;
+}
+.escrita_footer {
+    font-size: 0.85rem;
+    color: var(--cor-terciaria);
+    text-shadow: 5px 2px 20px #ffffff;
+    margin: 0 0 0 40px;
+}
+.container_links {
+    padding: 0 -60px 0 30px;
+    margin: 0 10px;
+    justify-content: space-evenly;
+}
+.git_hub {
+    padding: 0 45px 0 0px;
+    margin: 0 40px;
+}
+.twitch {
+    padding: 0 80px 0 0px;
+    margin: 40px;
+}
+@media only screen and (min-width: 1800px) and (max-width: 1920px) {
+
+.footer {
+    display: flex;
+    margin: 60px;
+    padding: 10px 0 -10px 0;
+}
+.escrita_footer {
+    font-size: 0.85rem;
+    color: var(--cor-terciaria);
+    text-shadow: 5px 2px 20px #ffffff;
+    margin: 0 400px 0px 40px;
+}
+.container_links {
+    margin: 0 10px;
+    justify-content: space-evenly;
+}
+.git_hub {
+    padding: 0 100px 0 0px;
+    margin: 0 40px;
+}
+.twitch {
+    padding: 0 150px 0 0px;
+    margin: 40px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    body {
+        box-sizing: border-box;
+        justify-content: space-between;
+        background-color:var(--cor-secundaria);
+        hei;
+        margin: 10px;
+        padding: 10px;
+        position:relative;
+    }
+    header {
+        margin: -30px 180px;
+        padding: 0 12px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction:column-reverse;
+        align-items:baseline;
+    }
+    .h1_titulo_apresentacao {
+        margin: 20px 260px 2px;
+        padding: -10px;
+        text-align: center;
+        font-size: 1.04rem;
+        font-family: "Permanent Marker", cursive;
+        color: var(--cor-terciaria);
+        text-shadow: 0 0 10px var(--cor-terciaria);
+    }
+    .logo_atualizar {
+        display: flex;
+        box-sizing: border-box;
+        padding: 0 300px 20px;
+        width: 0.8%;
+        filter:brightness(150%);
+        opacity: 90%;
+    }
+    .container {
+        margin: 100px 2px 100px;
+        width: 100%;
+        height: 95%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container_clarify_code {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: -80% 0% -70% 2.5%;
+        flex-direction: column;
+        justify-content:calc(1px);
+        width: 95%;
+        height:45%;
+    }
+    .textoarea_digite_seu_texto {
+        margin: 37% 2% 2%;
+        justify-content: space-evenly;
+        padding-top: 2%;
+        box-shadow: 0.5px 1px 15px 2px var(--cor-terciaria);
+        border-radius: 15px;
+        background-color: var(--cor-primaria);
+        opacity: 99.99%;
+        width: 100%;
+        height: 100%;
+        border: none;
+        color: var(--cor-terciaria);
+        font-size: 0.85rem;
+        resize: none;
+        outline: none;
+        font-family: "Permanent Marker", cursive;
+    }
+    .rodape__alert {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        font-family: "Permanent Marker", cursive;
+    }
+    .apenas_letras_minusculas {
+        margin: 0 0 30px;
+        font-size: 1rem;
+        text-align: center;
+        color: var(--cor-terciaria);
+        text-shadow: 0 0 10px var(--cor-terciaria);
+    }
+    .container_buttons_conjunto_rodape {
+        width: 99%;
+        height: 50%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 1rem;
+    }
+    .button_criptografar {
+        justify-content: center;
+        box-shadow: 5px 2px 10px var(--cor-terciaria);
+        text-shadow: 2px 2px 8px var(--cor-primaria);
+        width: 100%;
+        color: var(--cor-secundaria);
+        background-color: var(--cor-terciaria);
+        border-radius: 7px;
+        font-size: 85%;
+        gap: 1rem;
+        font-family: "Permanent Marker", cursive;
+        border-color: var(--cor-terciaria);
+    }
+    .button_descriptografar {
+        justify-content: center;
+        box-shadow: 5px 2px 10px var(--cor-terciaria);
+        text-shadow: 5px 2px 20px;
+        width: 100%;
+        color: var(--cor-terciaria);
+        background-color: var(--cor-secundaria);
+    }
+    .container_return_box {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        height: 70%;
+    }
+    .img_enigma {
+        border-radius: 8px;
+        width: 80%;
+        filter:brightness(80%);
+        opacity: 40%;
+    }
+    .container_return_box_msg {
+        box-sizing: border-box;
+        font-family: "Permanent Marker", cursive;
+        font-size: 1.25rem;
+    }
+    
+    .digite_o_texto_para_cript_ou_descrip {
+        font-family: "Permanent Marker", cursive;
+        font-size: .85rem;
+    }
+    .container_return_button_copiar {
+        text-shadow: 5px 2px 20px;
+        width: 85%;
+        color: var(--cor-secundaria);
+        background-color: var(--cor-terciaria);
+        border-radius: 10px;
+        font-size: 0.85rem;
+        font-family: "Permanent Marker", cursive;
+        border-color: var(--cor-terciaria);
+        text-size-adjust: 99%;
+    }
+    .footer {
+        display: flex;
+        margin: 20px;
+        padding: 120px 0 -10px 0;
+    }
+    .escrita_footer {
+        font-size: 0.85rem;
+        color: var(--cor-terciaria);
+        text-shadow: 5px 2px 20px #ffffff;
+        margin: 0 0 0 40px;
+    }
+    .container_links {
+        padding: 0 -60px 0 30px;
+        margin: 0 10px;
+        justify-content: space-evenly;
+    }
+    .git_hub {
+        padding: 0 45px 0 0px;
+        margin: 0 100px;
+    }
+    .twitch {
+        padding: 0 80px 0 0px;
+        margin: 40px;
+    }
+.footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content:baseline;
+}
+.escrita_footer {
+    text-align: center;
+    font-size: 0.5rem;
+    color: var(--cor-terciaria);
+    text-shadow: 5px 2px 20px #ffffff;
+    margin: 0 2px 10px 2px;
+   
+}
+.container_links {
+    margin: 0;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.git_hub {
+    padding: 2px;
+    margin: 12px 110px 0 0;
+}
+.twitch {
+    padding: 0;
+    margin: 2px 110px 0 0;
+}
+}
+@media only screen and (min-width: 375px) and (max-width: 800px) {
+    body {
+        box-sizing: border-box;
+        background-color:var(--cor-secundaria);
+        height: 90vh;
+        margin: 10px 0 0 0;
+        padding: 10px;
+        position:relative;
+    }
+    header {
+        display: flex;
+        flex-direction:column-reverse;
+        align-items:baseline;
+    }
+    .h1_titulo_apresentacao {
+        margin: 20px 80px 2px;
+        text-align: center;
+        font-size: 1.04rem;
+        font-family: "Permanent Marker", cursive;
+        color: var(--cor-terciaria);
+        text-shadow: 0 0 10px var(--cor-terciaria);
+    }
+    .logo_atualizar {
+        margin: 0 50px;
+        display: flex;
+        box-sizing: border-box;
+        padding: 0 30px;
+        width: 0.8%;
+        filter:brightness(150%);
+        opacity: 90%;
+    }
+    .container {
+        width: 100%;
+        height: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container_clarify_code {
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: -80% 0% -70% 2.5%;
+        flex-direction: column;
+        justify-content:calc(1px);
+        width: 95%;
+        height:45%;
+    }
+    .textoarea_digite_seu_texto {
+        margin: 37% 2% 0%;
+        justify-content: space-evenly;
+        padding-top: 2%;
+        box-shadow: 0.5px 1px 15px 2px var(--cor-terciaria);
+        border-radius: 15px;
+        background-color: var(--cor-primaria);
+        opacity: 99.99%;
+        width: 100%;
+        height: 100%;
+        border: none;
+        color: var(--cor-terciaria);
+        font-size: 0.85rem;
+        resize: none;
+        outline: none;
+        font-family: "Permanent Marker", cursive;
+    }
+    .rodape__alert {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        font-family: "Permanent Marker", cursive;
+    }
+    .apenas_letras_minusculas {
+        margin: 0 0 30px;
+        font-size: 1rem;
+        text-align: center;
+        color: var(--cor-terciaria);
+        text-shadow: 0 0 10px var(--cor-terciaria);
+    }
+    .container_buttons_conjunto_rodape {
+        width: 99%;
+        height: 50%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: 1rem;
+    }
+    .button_criptografar {
+        justify-content: center;
+        box-shadow: 5px 2px 10px var(--cor-terciaria);
+        text-shadow: 2px 2px 8px var(--cor-primaria);
+        width: 100%;
+        color: var(--cor-secundaria);
+        background-color: var(--cor-terciaria);
+        border-radius: 7px;
+        font-size: 85%;
+        gap: 1rem;
+        font-family: "Permanent Marker", cursive;
+        border-color: var(--cor-terciaria);
+    }
+    .button_descriptografar {
+        justify-content: center;
+        box-shadow: 5px 2px 10px var(--cor-terciaria);
+        text-shadow: 5px 2px 20px;
+        width: 100%;
+        color: var(--cor-terciaria);
+        background-color: var(--cor-secundaria);
+        border-radius: 7px;
+        font-size: 85%;
+        gap: 1rem;
+        font-family: "Permanent Marker", cursive;
+        border-color: var(--cor-terciaria);
+    }
+    .container_return {
+        overflow: hidden;
+        width: 95%;
+        height: 45%;
+        margin: 90% 2% 0.5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        background-color: var(--cor-primaria);
+        color: var(--cor-terciaria);
+        text-shadow: 0 0 20px var(--cor-terciaria);
+        border-radius: 20px;
+        box-shadow: 0.5px 1px 15px 2px var(--cor-terciaria);
+    }
+    .container_return_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        height: 70%;
+        gap: 8%;
+    }
+    .img_enigma {
+        border-radius: 8px;
+        width: 80%;
+        filter:brightness(80%);
+        opacity: 40%;
+    }
+    .container_return_box_msg {
+        box-sizing: border-box;
+        font-family: "Permanent Marker", cursive;
+        font-size: 1.25rem;
+    }
+    .digite_o_texto_para_cript_ou_descrip {
+        font-family: "Permanent Marker", cursive;
+        font-size: .85rem;
+    }
+    .container_return_button_copiar {
+        text-shadow: 5px 2px 20px;
+        width: 85%;
+        color: var(--cor-secundaria);
+        background-color: var(--cor-terciaria);
+        border-radius: 10px;
+        font-size: 0.85rem;
+        font-family: "Permanent Marker", cursive;
+        border-color: var(--cor-terciaria);
+        text-size-adjust: 99%;
+    }
+    .footer {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content:baseline;
+    }
+    .escrita_footer {
+        text-align: center;
+        font-size: 0.5rem;
+        color: var(--cor-terciaria);
+        text-shadow: 5px 2px 20px #ffffff;
+        margin: 0 2px 10px 2px;
+       
+    }
+    .container_links {
+        margin: 0;
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+    .git_hub {
+        padding: 0;
+        margin: 2px 110px 0 0;
+    }
+    .twitch {
+        padding: 0;
+        margin: 2px 110px 0 0;
+    }
+    }
