@@ -426,7 +426,7 @@ header {
         align-items:baseline;
     }
     .h1_titulo_apresentacao {
-        margin: 20px 80px 2px;
+        margin: 20px 60px 2px;
         text-align: center;
         font-size: 1.04rem;
         font-family: "Permanent Marker", cursive;
@@ -434,7 +434,7 @@ header {
         text-shadow: 0 0 10px var(--cor-terciaria);
     }
     .logo_atualizar {
-        margin: 0 50px;
+        margin: 0 30px;
         display: flex;
         box-sizing: border-box;
         padding: 0 30px;
