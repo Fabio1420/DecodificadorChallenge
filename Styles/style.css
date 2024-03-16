@@ -206,12 +206,12 @@ header {
     margin: 40px;
 }
 }
-@media only screen and (min-width: 700px) and (max-width: 800px) {
+@media only screen and (min-width: 700px) and (max-width: 900px) {
     body {
         box-sizing: border-box;
         justify-content: space-between;
         background-color:var(--cor-secundaria);
-        hei;
+        height: 90vh;
         margin: 10px;
         padding: 10px;
         position:relative;
@@ -411,7 +411,7 @@ header {
     margin: 2px 110px 0 0;
 }
 }
-@media only screen and (min-width: 300px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 699px) {
     body {
         box-sizing: border-box;
         background-color:var(--cor-secundaria);
