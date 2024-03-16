@@ -437,8 +437,8 @@ header {
         margin: 0 30%;
         display: flex;
         box-sizing: border-box;
-        padding: 0 30px;
-        width: 0.8%;
+        padding: 0 30px 20px;
+        width: 0.2%;
         filter:brightness(150%);
         opacity: 90%;
     }
